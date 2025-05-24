@@ -3,6 +3,7 @@
 <suite name="All Test Suite">
     <parameter name="env" value="http://localhost:3000"/>
     <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
         <listener class-name="listeners.Listener" />
     </listeners>
     <suite-files>

@@ -3,11 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-        <groupId>org.example</groupId>
-        <artifactId>Library-RestAssure</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <name>Library</name>
-        <url>http://localhost:3000/</url>
+    <groupId>org.example</groupId>
+    <artifactId>Library-RestAssure</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>Library</name>
+    <url>http://localhost:3000/</url>
 
     <properties>
         <project.name>${project.name}</project.name>
@@ -66,10 +66,10 @@
                     <version>3.1.0</version>
                 </plugin>
                 <plugin>
-                <groupId>io.qameta.allure</groupId>
-                 <artifactId>allure-maven</artifactId>
-                <version>2.11.2</version>
-                 </plugin>
+                    <groupId>io.qameta.allure</groupId>
+                    <artifactId>allure-maven</artifactId>
+                    <version>2.11.2</version>
+                </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
@@ -234,7 +234,5 @@
             <artifactId>json-schema-validator</artifactId>
             <version>5.5.2</version> <!-- use same version as your rest-assured -->
         </dependency>
-
     </dependencies>
-
 </project>
