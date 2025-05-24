@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="3" preserve-order="true" name="External Data">
+        <parameter name="env" value="http://localhost:3000"/>
+
+        <classes>
+            <class name="testcases.externaldata.TC01_CreateNewBook_DataFaker">
+                <methods>
+                    <include name="validateCreateNewBookWithFakerData_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC02_CreateNewBook_RandomMethod">
+                <methods>
+                    <include name="validateCreateRandomMethod_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC03_CreateNewBook_ReadExcelSheet_1">
+                <methods>
+                    <include name="validateCreateNewBookWithReadingFromExcelSheet_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC04_CreateNewBook_ReadExcelSheet_2">
+                <methods>
+                    <include name="validateCreateNewBookWithReadingFromExcelSheet_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel">
+                <methods>
+                    <include name="createNewBookWithDataProviderExcel"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC06_CreateNewBookWithDataProviderJson">
+                <methods>
+                    <include name="createNewBookWithWithDataProviderJson"/>
+                </methods>
+            </class>
+
+            <class name="testcases.externaldata.TC07_CreateNewBook_ReadJsonFile">
+                <methods>
+                    <include name="validateCreateNewBookWithReadFromJsonFile_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

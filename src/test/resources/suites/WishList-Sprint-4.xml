@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="3" preserve-order="true" name="Library WishList Tests">
+        <parameter name="env" value="http://localhost:3000"/>
+
+        <classes>
+            <class name="testcases.wishlists.TC01_CreateNewWishList">
+                <methods>
+                    <include name="verifyCreateNewWishList_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC02_GetWishListById">
+                <methods>
+                    <include name="verifyGetWishListById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC03_UpdateWishList">
+                <methods>
+                    <include name="verifyUpdateWishList_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC04_GetWishListById">
+                <methods>
+                    <include name="verifyGetWishListById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC05_PartialUpdateWishList">
+                <methods>
+                    <include name="verifyPartialUpdateWishList_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC06_GetWishListById">
+                <methods>
+                    <include name="verifyGetWishListById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC07_DeleteWishList">
+                <methods>
+                    <include name="verifyDeleteWishList_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.wishlists.TC08_GetWishListById">
+                <methods>
+                    <include name="verifyGetWishListById_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

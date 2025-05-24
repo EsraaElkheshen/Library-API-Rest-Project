@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="40" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-24T21:10:42 EEST" name="All Test Suite (3)" finished-at="2025-05-24T21:10:42 EEST" duration-ms="395">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T21:10:42 EEST" name="Library WishList Tests" finished-at="2025-05-24T21:10:42 EEST" duration-ms="395">
+      <class name="testcases.wishlists.TC07_DeleteWishList">
+        <test-method signature="verifyDeleteWishList_P()[pri:1, instance:testcases.wishlists.TC07_DeleteWishList@73c3cd09]" started-at="2025-05-24T21:10:42 EEST" name="verifyDeleteWishList_P" description="delete WishList" finished-at="2025-05-24T21:10:42 EEST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteWishList_P -->
+      </class> <!-- testcases.wishlists.TC07_DeleteWishList -->
+      <class name="testcases.wishlists.TC02_GetWishListById">
+        <test-method signature="verifyGetWishListById_P()[pri:1, instance:testcases.wishlists.TC02_GetWishListById@3eb3232b]" started-at="2025-05-24T21:10:42 EEST" name="verifyGetWishListById_P" description="get wishlist By Id" finished-at="2025-05-24T21:10:42 EEST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetWishListById_P -->
+      </class> <!-- testcases.wishlists.TC02_GetWishListById -->
+      <class name="testcases.wishlists.TC06_GetWishListById">
+        <test-method signature="verifyGetWishListById_P()[pri:1, instance:testcases.wishlists.TC06_GetWishListById@40729f01]" started-at="2025-05-24T21:10:42 EEST" name="verifyGetWishListById_P" description="get WishList By Id" finished-at="2025-05-24T21:10:42 EEST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetWishListById_P -->
+      </class> <!-- testcases.wishlists.TC06_GetWishListById -->
+      <class name="testcases.wishlists.TC08_GetWishListById">
+        <test-method signature="verifyGetWishListById_P()[pri:1, instance:testcases.wishlists.TC08_GetWishListById@3c66b7d8]" started-at="2025-05-24T21:10:42 EEST" name="verifyGetWishListById_P" description="get WishList" finished-at="2025-05-24T21:10:42 EEST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetWishListById_P -->
+      </class> <!-- testcases.wishlists.TC08_GetWishListById -->
+      <class name="testcases.wishlists.TC05_PartialUpdateWishList">
+        <test-method signature="verifyPartialUpdateWishList_P()[pri:1, instance:testcases.wishlists.TC05_PartialUpdateWishList@5eea5627]" started-at="2025-05-24T21:10:42 EEST" name="verifyPartialUpdateWishList_P" description="Verify Partial Update WishList" finished-at="2025-05-24T21:10:42 EEST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPartialUpdateWishList_P -->
+      </class> <!-- testcases.wishlists.TC05_PartialUpdateWishList -->
+      <class name="testcases.wishlists.TC01_CreateNewWishList">
+        <test-method is-config="true" signature="setUrl(java.lang.String)[pri:0, instance:testcases.wishlists.TC01_CreateNewWishList@abbe000]" started-at="2025-05-24T21:10:42 EEST" name="setUrl" finished-at="2025-05-24T21:10:42 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="verifyCreateNewWishList_P()[pri:1, instance:testcases.wishlists.TC01_CreateNewWishList@abbe000]" started-at="2025-05-24T21:10:42 EEST" name="verifyCreateNewWishList_P" description="Create New WishList" finished-at="2025-05-24T21:10:42 EEST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewWishList_P -->
+      </class> <!-- testcases.wishlists.TC01_CreateNewWishList -->
+      <class name="testcases.wishlists.TC04_GetWishListById">
+        <test-method signature="verifyGetWishListById_P()[pri:1, instance:testcases.wishlists.TC04_GetWishListById@4ecd00b5]" started-at="2025-05-24T21:10:42 EEST" name="verifyGetWishListById_P" description="get WishList By Id" finished-at="2025-05-24T21:10:42 EEST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetWishListById_P -->
+      </class> <!-- testcases.wishlists.TC04_GetWishListById -->
+      <class name="testcases.wishlists.TC03_UpdateWishList">
+        <test-method signature="verifyUpdateWishList_P()[pri:1, instance:testcases.wishlists.TC03_UpdateWishList@14fded9d]" started-at="2025-05-24T21:10:42 EEST" name="verifyUpdateWishList_P" description="Update WishList" finished-at="2025-05-24T21:10:42 EEST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateWishList_P -->
+      </class> <!-- testcases.wishlists.TC03_UpdateWishList -->
+    </test> <!-- Library WishList Tests -->
+  </suite> <!-- All Test Suite (3) -->
+  <suite started-at="2025-05-24T21:10:42 EEST" name="All Test Suite (4)" finished-at="2025-05-24T21:10:43 EEST" duration-ms="587">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T21:10:42 EEST" name="External Data" finished-at="2025-05-24T21:10:43 EEST" duration-ms="587">
+      <class name="testcases.externaldata.TC07_CreateNewBook_ReadJsonFile">
+        <test-method signature="validateCreateNewBookWithReadFromJsonFile_P()[pri:1, instance:testcases.externaldata.TC07_CreateNewBook_ReadJsonFile@5773f83d]" started-at="2025-05-24T21:10:43 EEST" name="validateCreateNewBookWithReadFromJsonFile_P" description="validate Create New Book With Reading From Json File" finished-at="2025-05-24T21:10:43 EEST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewBookWithReadFromJsonFile_P -->
+      </class> <!-- testcases.externaldata.TC07_CreateNewBook_ReadJsonFile -->
+      <class name="testcases.externaldata.TC06_CreateNewBookWithDataProviderJson">
+        <test-method signature="createNewBookWithWithDataProviderJson(java.util.Map)[pri:1, instance:testcases.externaldata.TC06_CreateNewBookWithDataProviderJson@74bcf1ab]" started-at="2025-05-24T21:10:42 EEST" name="createNewBookWithWithDataProviderJson" description="createNewBookWithDataProviderJson" data-provider="bookData" finished-at="2025-05-24T21:10:43 EEST" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=Iam Esraa, author=Esraa Elkheshen, isbn=Esraa, releaseDate=1989-04-04}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookWithWithDataProviderJson -->
+        <test-method signature="createNewBookWithWithDataProviderJson(java.util.Map)[pri:1, instance:testcases.externaldata.TC06_CreateNewBookWithDataProviderJson@74bcf1ab]" started-at="2025-05-24T21:10:43 EEST" name="createNewBookWithWithDataProviderJson" description="createNewBookWithDataProviderJson" data-provider="bookData" finished-at="2025-05-24T21:10:43 EEST" duration-ms="35" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=Iam Mahmoud, author=Mahmoud Elkheshen, isbn=Mahmoud, releaseDate=2018-03-13}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookWithWithDataProviderJson -->
+      </class> <!-- testcases.externaldata.TC06_CreateNewBookWithDataProviderJson -->
+      <class name="testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel">
+        <test-method signature="createNewBookWithDataProviderExcel(java.util.Map)[pri:1, instance:testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel@7a14ab66]" started-at="2025-05-24T21:10:42 EEST" name="createNewBookWithDataProviderExcel" description="createNewBookWithDataProviderExcel" data-provider="bookData" finished-at="2025-05-24T21:10:42 EEST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=Hi, releaseDate=2024-04-04, author=Mahmoud, isbn=Ahmed}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookWithDataProviderExcel -->
+        <test-method signature="createNewBookWithDataProviderExcel(java.util.Map)[pri:1, instance:testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel@7a14ab66]" started-at="2025-05-24T21:10:42 EEST" name="createNewBookWithDataProviderExcel" description="createNewBookWithDataProviderExcel" data-provider="bookData" finished-at="2025-05-24T21:10:42 EEST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=Hello, releaseDate=2026-06-06, author=Esraa , isbn=Amr}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookWithDataProviderExcel -->
+        <test-method signature="createNewBookWithDataProviderExcel(java.util.Map)[pri:1, instance:testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel@7a14ab66]" started-at="2025-05-24T21:10:42 EEST" name="createNewBookWithDataProviderExcel" description="createNewBookWithDataProviderExcel" data-provider="bookData" finished-at="2025-05-24T21:10:42 EEST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{title=Ahmed, releaseDate=2025-05-05, author=Ibrahim, isbn=Faried}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBookWithDataProviderExcel -->
+      </class> <!-- testcases.externaldata.TC05_CreateNewBookWithDataProviderExcel -->
+      <class name="testcases.externaldata.TC04_CreateNewBook_ReadExcelSheet_2">
+        <test-method signature="validateCreateNewBookWithReadingFromExcelSheet_P()[pri:1, instance:testcases.externaldata.TC04_CreateNewBook_ReadExcelSheet_2@1a7437d8]" started-at="2025-05-24T21:10:42 EEST" name="validateCreateNewBookWithReadingFromExcelSheet_P" description="validate Create New Book With Reading From Excel Sheet" finished-at="2025-05-24T21:10:42 EEST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewBookWithReadingFromExcelSheet_P -->
+      </class> <!-- testcases.externaldata.TC04_CreateNewBook_ReadExcelSheet_2 -->
+      <class name="testcases.externaldata.TC03_CreateNewBook_ReadExcelSheet_1">
+        <test-method signature="validateCreateNewBookWithReadingFromExcelSheet_P()[pri:1, instance:testcases.externaldata.TC03_CreateNewBook_ReadExcelSheet_1@2b409174]" started-at="2025-05-24T21:10:42 EEST" name="validateCreateNewBookWithReadingFromExcelSheet_P" description="validate Create New Book With Reading From Excel Sheet" finished-at="2025-05-24T21:10:42 EEST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewBookWithReadingFromExcelSheet_P -->
+      </class> <!-- testcases.externaldata.TC03_CreateNewBook_ReadExcelSheet_1 -->
+      <class name="testcases.externaldata.TC02_CreateNewBook_RandomMethod">
+        <test-method signature="validateCreateRandomMethod_P()[pri:1, instance:testcases.externaldata.TC02_CreateNewBook_RandomMethod@126a9a3d]" started-at="2025-05-24T21:10:42 EEST" name="validateCreateRandomMethod_P" description="validate Create New Book With Random Date" finished-at="2025-05-24T21:10:42 EEST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateRandomMethod_P -->
+      </class> <!-- testcases.externaldata.TC02_CreateNewBook_RandomMethod -->
+      <class name="testcases.externaldata.TC01_CreateNewBook_DataFaker">
+        <test-method is-config="true" signature="setUrl(java.lang.String)[pri:0, instance:testcases.externaldata.TC01_CreateNewBook_DataFaker@3c544c9]" started-at="2025-05-24T21:10:42 EEST" name="setUrl" finished-at="2025-05-24T21:10:42 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="validateCreateNewBookWithFakerData_P()[pri:1, instance:testcases.externaldata.TC01_CreateNewBook_DataFaker@3c544c9]" started-at="2025-05-24T21:10:42 EEST" name="validateCreateNewBookWithFakerData_P" description="validate Create New Book With Faker Data" finished-at="2025-05-24T21:10:42 EEST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewBookWithFakerData_P -->
+      </class> <!-- testcases.externaldata.TC01_CreateNewBook_DataFaker -->
+    </test> <!-- External Data -->
+  </suite> <!-- All Test Suite (4) -->
+  <suite started-at="2025-05-24T21:10:43 EEST" name="All Test Suite" finished-at="2025-05-24T21:10:43 EEST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2025-05-24T21:10:37 EEST" name="All Test Suite (0)" finished-at="2025-05-24T21:10:41 EEST" duration-ms="3298">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T21:10:37 EEST" name="New Book" finished-at="2025-05-24T21:10:41 EEST" duration-ms="3298">
+      <class name="testcases.books.TC01_CreateNewBook">
+        <test-method is-config="true" signature="setUrl(java.lang.String)[pri:0, instance:testcases.books.TC01_CreateNewBook@42b21d99]" started-at="2025-05-24T21:10:37 EEST" name="setUrl" finished-at="2025-05-24T21:10:38 EEST" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="verifyCreateNewBook_P()[pri:1, instance:testcases.books.TC01_CreateNewBook@42b21d99]" started-at="2025-05-24T21:10:38 EEST" name="verifyCreateNewBook_P" description="Create New Book" finished-at="2025-05-24T21:10:40 EEST" duration-ms="2265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewBook_P -->
+      </class> <!-- testcases.books.TC01_CreateNewBook -->
+      <class name="testcases.books.TC04_PartialUpdateBook">
+        <test-method signature="verifyPartialUpdateBook_P()[pri:1, instance:testcases.books.TC04_PartialUpdateBook@4a68135e]" started-at="2025-05-24T21:10:40 EEST" name="verifyPartialUpdateBook_P" description="Partial Update Book" finished-at="2025-05-24T21:10:41 EEST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPartialUpdateBook_P -->
+      </class> <!-- testcases.books.TC04_PartialUpdateBook -->
+      <class name="testcases.books.TC02_GetBookById">
+        <test-method signature="verifyGetBookById_P()[pri:1, instance:testcases.books.TC02_GetBookById@66e8997c]" started-at="2025-05-24T21:10:40 EEST" name="verifyGetBookById_P" description="get Book By Id" finished-at="2025-05-24T21:10:40 EEST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetBookById_P -->
+        <test-method signature="verifyGetBookByIdAfterDeleting_P()[pri:2, instance:testcases.books.TC02_GetBookById@66e8997c]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetBookByIdAfterDeleting_P" description="Verify GetBook By Id After Deleting" finished-at="2025-05-24T21:10:41 EEST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetBookByIdAfterDeleting_P -->
+      </class> <!-- testcases.books.TC02_GetBookById -->
+      <class name="testcases.books.TC05_DeleteBook">
+        <test-method signature="verifyDeleteBook_P()[pri:1, instance:testcases.books.TC05_DeleteBook@1abc9f14]" started-at="2025-05-24T21:10:41 EEST" name="verifyDeleteBook_P" description="delete Book" finished-at="2025-05-24T21:10:41 EEST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteBook_P -->
+      </class> <!-- testcases.books.TC05_DeleteBook -->
+      <class name="testcases.books.TC03_UpdateBook">
+        <test-method signature="verifyUpdateBook_P()[pri:1, instance:testcases.books.TC03_UpdateBook@12958360]" started-at="2025-05-24T21:10:40 EEST" name="verifyUpdateBook_P" description="UpdateBook" finished-at="2025-05-24T21:10:40 EEST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateBook_P -->
+      </class> <!-- testcases.books.TC03_UpdateBook -->
+    </test> <!-- New Book -->
+  </suite> <!-- All Test Suite (0) -->
+  <suite started-at="2025-05-24T21:10:41 EEST" name="All Test Suite (1)" finished-at="2025-05-24T21:10:41 EEST" duration-ms="338">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T21:10:41 EEST" name="Library HouseHold Tests" finished-at="2025-05-24T21:10:41 EEST" duration-ms="338">
+      <class name="testcases.households.TC05_PartialUpdateHouseHold">
+        <test-method signature="verifyPartialUpdateHouseHold_P()[pri:1, instance:testcases.households.TC05_PartialUpdateHouseHold@2a39aa2b]" started-at="2025-05-24T21:10:41 EEST" name="verifyPartialUpdateHouseHold_P" description="Partial Update HouseHold" finished-at="2025-05-24T21:10:41 EEST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPartialUpdateHouseHold_P -->
+      </class> <!-- testcases.households.TC05_PartialUpdateHouseHold -->
+      <class name="testcases.households.TC06_GetHouseHoldById">
+        <test-method signature="verifyGetHouseHoldById_P()[pri:1, instance:testcases.households.TC06_GetHouseHoldById@1eff3cfb]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetHouseHoldById_P" description="get HouseHold By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetHouseHoldById_P -->
+      </class> <!-- testcases.households.TC06_GetHouseHoldById -->
+      <class name="testcases.households.TC02_GetHouseHoldById">
+        <test-method signature="verifyGetHouseHoldById_P()[pri:1, instance:testcases.households.TC02_GetHouseHoldById@4e83a98]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetHouseHoldById_P" description="get HouseHold By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetHouseHoldById_P -->
+      </class> <!-- testcases.households.TC02_GetHouseHoldById -->
+      <class name="testcases.households.TC08_GetHouseHoldById">
+        <test-method signature="verifyGetHouseHoldById_P()[pri:1, instance:testcases.households.TC08_GetHouseHoldById@793d163b]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetHouseHoldById_P" description="get HouseHold By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetHouseHoldById_P -->
+      </class> <!-- testcases.households.TC08_GetHouseHoldById -->
+      <class name="testcases.households.TC01_CreateNewHouseHold">
+        <test-method is-config="true" signature="setUrl(java.lang.String)[pri:0, instance:testcases.households.TC01_CreateNewHouseHold@7c51782d]" started-at="2025-05-24T21:10:41 EEST" name="setUrl" finished-at="2025-05-24T21:10:41 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="verifyCreateNewHouseHold_P()[pri:1, instance:testcases.households.TC01_CreateNewHouseHold@7c51782d]" started-at="2025-05-24T21:10:41 EEST" name="verifyCreateNewHouseHold_P" description="Create New HouseHold" finished-at="2025-05-24T21:10:41 EEST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewHouseHold_P -->
+      </class> <!-- testcases.households.TC01_CreateNewHouseHold -->
+      <class name="testcases.households.TC04_GetHouseHoldById">
+        <test-method signature="verifyGetHouseHoldById_P()[pri:1, instance:testcases.households.TC04_GetHouseHoldById@1e60b459]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetHouseHoldById_P" description="get HouseHold By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetHouseHoldById_P -->
+      </class> <!-- testcases.households.TC04_GetHouseHoldById -->
+      <class name="testcases.households.TC07_DeleteHouseHold">
+        <test-method signature="verifyDeleteHouseHold_P()[pri:1, instance:testcases.households.TC07_DeleteHouseHold@2676dc05]" started-at="2025-05-24T21:10:41 EEST" name="verifyDeleteHouseHold_P" description="delete HouseHold" finished-at="2025-05-24T21:10:41 EEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteHouseHold_P -->
+      </class> <!-- testcases.households.TC07_DeleteHouseHold -->
+      <class name="testcases.households.TC03_UpdateHouseHold">
+        <test-method signature="verifyUpdateHouseHold_P()[pri:1, instance:testcases.households.TC03_UpdateHouseHold@5583098b]" started-at="2025-05-24T21:10:41 EEST" name="verifyUpdateHouseHold_P" description="Update HouseHold" finished-at="2025-05-24T21:10:41 EEST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateHouseHold_P -->
+      </class> <!-- testcases.households.TC03_UpdateHouseHold -->
+    </test> <!-- Library HouseHold Tests -->
+  </suite> <!-- All Test Suite (1) -->
+  <suite started-at="2025-05-24T21:10:41 EEST" name="All Test Suite (2)" finished-at="2025-05-24T21:10:42 EEST" duration-ms="581">
+    <groups>
+    </groups>
+    <test started-at="2025-05-24T21:10:41 EEST" name="Library User Tests" finished-at="2025-05-24T21:10:42 EEST" duration-ms="581">
+      <class name="testcases.user.TC05_PartialUpdateUser">
+        <test-method signature="verifyPartialUpdateUser_P()[pri:1, instance:testcases.user.TC05_PartialUpdateUser@6a9cd0f8]" started-at="2025-05-24T21:10:41 EEST" name="verifyPartialUpdateUser_P" description="Partial Update User" finished-at="2025-05-24T21:10:41 EEST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPartialUpdateUser_P -->
+      </class> <!-- testcases.user.TC05_PartialUpdateUser -->
+      <class name="testcases.user.TC07_DeleteUser">
+        <test-method signature="verifyDeleteUser_P()[pri:1, instance:testcases.user.TC07_DeleteUser@34b87182]" started-at="2025-05-24T21:10:42 EEST" name="verifyDeleteUser_P" description="delete User" finished-at="2025-05-24T21:10:42 EEST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteUser_P -->
+      </class> <!-- testcases.user.TC07_DeleteUser -->
+      <class name="testcases.user.TC08_GetUserById">
+        <test-method signature="verifyGetUserById_P()[pri:1, instance:testcases.user.TC08_GetUserById@124d02b2]" started-at="2025-05-24T21:10:42 EEST" name="verifyGetUserById_P" description="get User By Id" finished-at="2025-05-24T21:10:42 EEST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserById_P -->
+      </class> <!-- testcases.user.TC08_GetUserById -->
+      <class name="testcases.user.TC04_GetUserById">
+        <test-method signature="verifyGetUserById_P()[pri:1, instance:testcases.user.TC04_GetUserById@3b8ec001]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetUserById_P" description="get User By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserById_P -->
+      </class> <!-- testcases.user.TC04_GetUserById -->
+      <class name="testcases.user.TC03_UpdateUser">
+        <test-method signature="verifyUpdateUser_P()[pri:1, instance:testcases.user.TC03_UpdateUser@3382cf68]" started-at="2025-05-24T21:10:41 EEST" name="verifyUpdateUser_P" description="Update User" finished-at="2025-05-24T21:10:41 EEST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateUser_P -->
+      </class> <!-- testcases.user.TC03_UpdateUser -->
+      <class name="testcases.user.TC01_CreateNewUser">
+        <test-method is-config="true" signature="setUrl(java.lang.String)[pri:0, instance:testcases.user.TC01_CreateNewUser@1a47a1e8]" started-at="2025-05-24T21:10:41 EEST" name="setUrl" finished-at="2025-05-24T21:10:41 EEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:3000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUrl -->
+        <test-method signature="verifyCreateNewUser_P()[pri:1, instance:testcases.user.TC01_CreateNewUser@1a47a1e8]" started-at="2025-05-24T21:10:41 EEST" name="verifyCreateNewUser_P" description="Create New User Success" finished-at="2025-05-24T21:10:41 EEST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateNewUser_P -->
+      </class> <!-- testcases.user.TC01_CreateNewUser -->
+      <class name="testcases.user.TC06_GetUserById">
+        <test-method signature="verifyGetUserById_P()[pri:1, instance:testcases.user.TC06_GetUserById@49cb1baf]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetUserById_P" description="get User By Id" finished-at="2025-05-24T21:10:42 EEST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserById_P -->
+      </class> <!-- testcases.user.TC06_GetUserById -->
+      <class name="testcases.user.TC02_GetUserById">
+        <test-method signature="verifyGetUserById_P()[pri:1, instance:testcases.user.TC02_GetUserById@2e7157c7]" started-at="2025-05-24T21:10:41 EEST" name="verifyGetUserById_P" description="get User By Id" finished-at="2025-05-24T21:10:41 EEST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserById_P -->
+      </class> <!-- testcases.user.TC02_GetUserById -->
+    </test> <!-- Library User Tests -->
+  </suite> <!-- All Test Suite (2) -->
+</testng-results>

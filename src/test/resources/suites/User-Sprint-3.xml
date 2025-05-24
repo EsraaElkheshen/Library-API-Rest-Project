@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="3" preserve-order="true" name="Library User Tests">
+        <parameter name="env" value="http://localhost:3000"/>
+
+        <classes>
+            <class name="testcases.user.TC01_CreateNewUser">
+                <methods>
+                    <include name="verifyCreateNewUser_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC02_GetUserById">
+                <methods>
+                    <include name="verifyGetUserById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC03_UpdateUser">
+                <methods>
+                    <include name="verifyUpdateUser_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC04_GetUserById">
+                <methods>
+                    <include name="verifyGetUserById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC05_PartialUpdateUser">
+                <methods>
+                    <include name="verifyPartialUpdateUser_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC06_GetUserById">
+                <methods>
+                    <include name="verifyGetUserById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC07_DeleteUser">
+                <methods>
+                    <include name="verifyDeleteUser_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.user.TC08_GetUserById">
+                <methods>
+                    <include name="verifyGetUserById_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Library-RestAssured(failed)">
+    <classes>
+      <class name="testcases.books.TC01_CreateNewBook">
+        <methods>
+          <include name="verifyCreateNewBook_P"/>
+          <include name="setUrl"/>
+        </methods>
+      </class> <!-- testcases.books.TC01_CreateNewBook -->
+    </classes>
+  </test> <!-- Library-RestAssured(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

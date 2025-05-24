@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="false" name="New Book">
+        <parameter name="env" value="http://localhost:3000"/>
+
+        <classes>
+            <class name="testcases.books.TC01_CreateNewBook">
+                <methods>
+                    <include name="verifyCreateNewBook_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC02_GetBookById">
+                <methods>
+                    <include name="verifyGetBookById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC03_UpdateBook">
+                <methods>
+                    <include name="verifyUpdateBook_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC02_GetBookById">
+                <methods>
+                    <include name="verifyGetBookById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC04_PartialUpdateBook">
+                <methods>
+                    <include name="verifyPartialUpdateBook_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC02_GetBookById">
+                <methods>
+                    <include name="verifyGetBookById_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC05_DeleteBook">
+                <methods>
+                    <include name="verifyDeleteBook_P"/>
+                </methods>
+            </class>
+
+            <class name="testcases.books.TC02_GetBookById">
+                <methods>
+                    <include name="verifyGetBookByIdAfterDeleting_P"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>
