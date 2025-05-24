@@ -10,7 +10,7 @@ import retrytest.Retry;
 import testcases.TestBase;
 
 import java.io.File;
-import java.lang.reflect.Array;
+import io.qameta.allure.*;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
