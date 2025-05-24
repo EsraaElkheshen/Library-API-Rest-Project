@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Get Code') {
             steps {
-                git changelog: false, poll: false, url: 'https://github.com/EsraaElkheshen/Library-API.git'
+                git changelog: false, poll: false, url: 'https://github.com/EsraaElkheshen/Library-API-Rest-Project.git'
             }
         }
 
