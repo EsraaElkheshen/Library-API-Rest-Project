@@ -38,15 +38,15 @@ pipeline {
         }
     }
 
-    post {
-        always {
-            junit '**/target/surefire-reports/*.xml' // If Surefire plugin is used
-        }
-        success {
-            echo "✅ Test passed. View reports in archived artifacts."
-        }
-        failure {
-            echo "❌ Tests failed. Check logs and reports."
-        }
+    	post {
+    always {
+        junit '**/target/surefire-reports/*.xml'
     }
+    success {
+        echo "✅ Test passed. View reports in archived artifacts."
+    }
+    failure {
+        echo "❌ Tests failed. Check logs and reports."
+    }
+}
 }
