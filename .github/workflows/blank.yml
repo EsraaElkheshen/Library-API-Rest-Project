@@ -1,39 +1,46 @@
-name: Run REST-assured Tests
+name: Run TestNG Tests with Allure Single File Report
 
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
-  run-tests:
-    runs-on: ubuntu-latest
+  test-and-report:
+    runs-on: windows-latest
 
     steps:
-      - name: ⬇️ Checkout repository
+      - name: ⬇️ Checkout code
         uses: actions/checkout@v3
 
-      - name: ☕ Set up Java 21
+      - name: ☕ Set up Java
         uses: actions/setup-java@v3
         with:
-          java-version: '21'
           distribution: 'temurin'
-          cache: 'maven'
+          java-version: '21'
 
-      - name: 📦 Run Maven verify using testng.xml
-        run: mvn clean verify -DsuiteXmlFile=testng.xml -Denv="http://localhost:3000" -Dallure.results.directory=target/allure-results
+      - name: ⚙️ Set up Maven
+        uses: stCarolas/setup-maven@v4
+        with:
+          maven-version: '3.9.6'
 
-      - name: 📤 Upload Surefire Reports
-        if: always()
+      - name: 📦 Run TestNG Tests with Allure results
+        run: |
+          mvn clean verify -DsuiteXmlFile=testng.xml -Denv="http://localhost:3000" -Dallure.results.directory=target/allure-results
+
+      - name: 📥 Install Allure CLI
+        run: |
+          choco install allure.commandline -y
+        shell: powershell
+
+      - name: 🧪 Generate Allure Report (Single File) from target
+        run: |
+          cd target
+          allure generate --single-file allure-results --clean -o allure-report
+
+      - name: 📤 Upload Allure Report
         uses: actions/upload-artifact@v4
         with:
-          name: surefire-reports
-          path: target/surefire-reports
-
-      - name: 📤 Upload Allure Results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: target/allure-results
+          name: allure-report
+          path: target/allure-report/index.html
