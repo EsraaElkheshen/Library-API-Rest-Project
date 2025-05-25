@@ -27,7 +27,7 @@ jobs:
 
       - name: 📦 Run TestNG Tests with Allure results
         run: |
-        mvn clean verify -Denv="http://localhost:3000" -Dallure.results.directory="target/allure-results"
+          mvn clean verify -Denv=http://localhost:3000 -Dallure.results.directory=target/allure-results
 
       - name: 📥 Install Allure CLI
         run: |
